@@ -57,6 +57,15 @@
 		</developer>
 	</developers>
 
+	<!--
+	<distributionManagement>
+		<repository>
+			<id>sarxos-ftp-repo</id>
+			<url>ftp://ftp.sarxos.pl/maven2</url>
+		</repository>
+	</distributionManagement>
+	-->
+
 	<profiles>
 
 		<!-- disable javadoc lint enabled by default in Java 8 -->
