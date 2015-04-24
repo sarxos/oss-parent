@@ -5,6 +5,10 @@ This is parent POM for my OSS projects.
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.sarxos/oss-parent/badge.svg)](http://search.maven.org/#artifactdetails|com.github.sarxos|oss-parent|2|bundle)
 [![Build Status](https://img.shields.io/travis/sarxos/oss-parent.svg?branch=master)](http://travis-ci.org/sarxos/oss-parent)
 
+## Release Brewing Recipes
+
+[link](https://github.com/sarxos/oss-parent/wiki)
+
 
 ## License
 
