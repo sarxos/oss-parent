@@ -2,3 +2,4 @@
 .settings
 target
 *.yml~
+pom.xml.bak
