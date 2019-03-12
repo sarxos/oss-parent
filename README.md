@@ -9,6 +9,17 @@ This is parent POM for my OSS projects.
 
 [link](https://github.com/sarxos/oss-parent/wiki)
 
+## Print Outdated Plugins
+
+```plain
+$ mvn versions:display-plugin-updates
+```
+
+## Sort POM
+
+```plain
+$ mvn com.github.ekryd.sortpom:sortpom-maven-plugin:sort -Dsort.keepBlankLines
+```
 
 ## License
 
