@@ -11,7 +11,7 @@
 
   <groupId>com.github.sarxos</groupId>
   <artifactId>oss-parent</artifactId>
-  <version>6</version>
+  <version>7-SNAPSHOT</version>
 
   <packaging>pom</packaging>
 
@@ -45,7 +45,7 @@
   <scm>
     <connection>scm:git:git@github.com:sarxos/oss-parent.git</connection>
     <developerConnection>scm:git:git@github.com:sarxos/oss-parent.git</developerConnection>
-    <tag>oss-parent-6</tag>
+    <tag>HEAD</tag>
     <url>git@github.com:sarxos/oss-parent.git</url>
   </scm>
 
@@ -214,7 +214,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore />
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -228,7 +228,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore />
                   </action>
                 </pluginExecution>
               </pluginExecutions>
