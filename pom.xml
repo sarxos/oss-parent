@@ -11,7 +11,7 @@
 
   <groupId>com.github.sarxos</groupId>
   <artifactId>oss-parent</artifactId>
-  <version>7</version>
+  <version>8-SNAPSHOT</version>
 
   <packaging>pom</packaging>
 
@@ -525,7 +525,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore></ignore>
+                        <ignore />
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -539,7 +539,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore></ignore>
+                        <ignore />
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -552,7 +552,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore></ignore>
+                        <ignore />
                       </action>
                     </pluginExecution>
                   </pluginExecutions>
