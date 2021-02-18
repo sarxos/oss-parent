@@ -11,7 +11,7 @@
 
   <groupId>com.github.sarxos</groupId>
   <artifactId>oss-parent</artifactId>
-  <version>7</version>
+  <version>7-SNAPSHOT</version>
 
   <packaging>pom</packaging>
 
@@ -56,7 +56,9 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <version.target.java>1.8</version.target.java>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <maven.compiler.target>11</maven.compiler.target>
+    <maven.compiler.source>11</maven.compiler.source>
   </properties>
 
   <build>
@@ -153,7 +155,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
-          <version>3.0.0-M1</version>
+          <version>2.5.3</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
